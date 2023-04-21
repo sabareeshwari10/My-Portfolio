@@ -1,0 +1,141 @@
+
+.header{
+  padding: 60px;
+  text-align: left;
+  background:plum;
+  color: white;
+  font-size: 30px;
+  
+}
+.nav{
+  padding-right: 50px;
+  padding-bottom: 50px;
+  text-align: right;
+  background: plum;
+  
+  
+}
+.Name{
+  text-align: left;
+  
+  
+}
+.skills{
+  color: black;
+  padding: 40px;
+  font-family: Arial;
+  text-align: left;
+  padding-left: 40px;
+}
+.address{
+  color: DodgerBlue;
+  padding: 40px;
+  font-family: Arial;
+  text-align: left;
+  padding-left: 40px;
+}
+.h1{
+  text-align: right;
+  padding-left: 40px;
+}
+.h2{
+  display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: black;
+    
+}
+.footer{
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:palevioletred;
+  color: white;
+  text-align: center;
+}
+.appsive{
+  text-align: left;
+  padding-left: 40px;
+}
+.aep{
+  padding-left: 40px;
+}
+
+
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: plum;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:#333;
+  color: white;
+}
+
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container {
+  border: 2px solid #ccc;
+  background-color: lavender;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+/* Clear floats after containers */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+
+  .container img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
